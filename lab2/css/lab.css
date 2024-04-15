@@ -6,4 +6,25 @@
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #DDD8C4;
-  }
+  
+    h1 {
+        color: #386641;
+        font-size: 200%;
+    }
+
+    p {
+        font-family: "comic sans";
+        text-indent: 20px;
+        margin-left: 10px;
+    }
+}
+
+#content {
+  background-color: #f2e8cf;
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px #386641;
+  font-size: 20px;
+}
