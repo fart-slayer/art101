@@ -3,13 +3,16 @@
 /* you can pick your own background colors, text colors, and fonts */
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+
 body {
   background-color: #000000;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -21,16 +24,19 @@ h1 {
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #640909;
+  margin: 30px;
+  padding: 60px;
+  border: solid 8px #640909;
   background-color: #cf0808;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-  padding: 10px;
+  padding: 30px;
+  margin: 30px;
   margin-bottom: 10px;
-  border: solid 1px #640909;
-  background-color: #cf0808;
+  border: solid 0px #640909;
+  background-color: #000000;
 }
