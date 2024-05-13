@@ -4,7 +4,7 @@
 // Date: May 12, 2024
 
 // Define Variables + Objects
-const myTransport = ["driving ", "walking ", "rollerblading ", "bus "];
+const myTransport = [" driving", " walking", " rollerblading", " bus"];
 
 var myMainRide = {
   make:"Volvo",
