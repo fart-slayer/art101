@@ -12,7 +12,7 @@ function sortUserName() {
     console.log ("Username: ", userName);
     //split string to array
     var nameArray = userName.split('');
-    console.log("Name of array: "), nameArray);
+    console.log("Name of array: ", nameArray);
     //sort the array
     var sortNameArray = nameArray.sort();
     console.log("Sorted nameArray variable: ", sortNameArray);
