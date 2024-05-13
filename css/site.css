@@ -24,19 +24,17 @@ h1 {
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
-<<<<<<< HEAD
   margin: 10px;
   padding: 10px;
   border: solid 1px #550808;
   background-color: #e40202;
-=======
+
   margin: 30px;
   padding: 60px;
   border: solid 8px #640909;
   background-color: #cf0808;
   font-family: 'Open Sans', sans-serif;
   color: white;
->>>>>>> c3c36934a9a2d8223c5d5502678482e59a6f8662
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
@@ -44,14 +42,11 @@ h1 {
   padding: 30px;
   margin: 30px;
   margin-bottom: 10px;
-<<<<<<< HEAD
   border: solid 1px #550808;
   background-color: #e40202;
-=======
   border: solid 0px #640909;
   background-color: #000000;
   color: white;
->>>>>>> c3c36934a9a2d8223c5d5502678482e59a6f8662
 }
 
 /* I would like to thank Chat GBT for the following code: */
@@ -60,4 +55,5 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 30px;
 }
