@@ -28,10 +28,6 @@ function meowify() {
     return "What cats think about you: ", meowString;
 }
 
-//Use map on your array using your function as a callback to operate on all the numbers in your array.
-console.log("Here are some words cats can say: ", coolArray);
-coolArray.map("This is how they pronounce them: ", meowify);
-
 //New anonymous function
 coolArray.map(function woofify(coolArray){
     // Split the input string into an array of words
@@ -47,7 +43,10 @@ coolArray.map(function woofify(coolArray){
     return woofString;
 })
 
-//Output
-var mapResults = coolArray.map(woof);
-console.log("Here are some words dogs know: ", coolArray);
-console.log("Here is how they pronounce them: ", mapResults);
+// Use jQuery to select the element by its ID and set the HTML content
+$("#output").html("What you think about cats: " + opinion);
+$("#output").html("What cats think about you: " + meowify(opinion));
+$("#output").html("Here are some words dogs know: " + coolArray.join());
+$("#output").html("Here is how they pronounce them: " + coolArray.map(woofify).join());
+
+
