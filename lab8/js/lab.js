@@ -17,16 +17,22 @@ array = [33, 13, 4, 72, 25, 21, 48, 55];
 console.log("My array: ", array);
 
 //use the function
-let result =array.map(even);
-console.log("Is my array even? ", result);
+let resultOne = array.map(even);
+console.log("Is my array even? ", resultOne);
 
 //anonymous function that returns halves of array
-array.map(function(x){
-    return (x ** 0.5);
+let resultTwo = array.map(function(x){
+    return (x * 0.5);
 })
-console.log("Create halves of my array: ", result);
 
-// Use jQuery to select the element by its ID and set the HTML content
+console.log("Halves of my array: ", resultTwo);
 
+//Task X
+let mapResults =
+    <><p>My array: ${array.join(", ")}</p>
+    <p> Is array even: ${resultOne.join(", ")}</p>
+    <p> Halves of my array: ${resultTwo.join(", ")}</p></>;
+
+$("#output").html(mapResults);
 
 
