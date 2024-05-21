@@ -1,0 +1,30 @@
+.minor-section {
+    padding: 30px;
+    margin: 30px;
+    margin-bottom: 10px;
+    border: solid 1px #550808;
+    background-color: #e40202;
+    border: solid 0px #640909;
+    background-color: #000000;
+    color: white;
+  }
+
+#content {
+    margin: 30px;
+    padding: 60px;
+    border: solid 8px #640909;
+    background-color: #cf0808;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+  }
+
+body {
+    background-color: #000000;
+}
+
+.special {  
+    background-color: rgb(0, 0, 0);
+    border: double 5px red;
+    color: red;
+    font-weight: bold;
+}
